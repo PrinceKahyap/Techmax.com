@@ -12,8 +12,79 @@
 </head>
 
 <body>
-    <!-- -----------------------------header-section--------------------------------->
-    <!-- -----------------------------/header-section--------------------------------->
+    <!-- -----------------------------Header-section--------------------------------->
+    <header>
+        <div class="navbar container">
+            <div class="logo"><a href="#">TECHMAX</a></div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#" class="desktop-item">Servcies <i class="fa fa-chevron-down"></i></a>
+                        <input type="checkbox" name="" id="show-drop">
+                        <label for="show-drop" class="mobile-item">Services <i class="fa fa-chevron-down"></i></label>
+                        <ul class="drop-menu">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Services Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="desktop-item" >Pages <i class="fa fa-chevron-down"></i></a>
+                        <input type="checkbox" name="" id="page-drop">
+                        <label for="page-drop" class="mobile-item">Pages <i class="fa fa-chevron-down"></i></label>
+                        <ul class="drop-menu">
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Projects Details</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Projects Details</a></li>
+                            <li><a href="#">Projects Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="desktop-item" >Blog <i class="fa fa-chevron-down"></i></a>
+                        <input type="checkbox" name="" id="blog-drop">
+                        <label for="blog-drop" class="mobile-item">Blog <i class="fa fa-chevron-down"></i></label>
+                        <ul class="drop-menu">
+                            <li><a href="#">Blog Grif</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div class="nav-btn">
+                <button type="submit" class="nav-links">Log in</button>
+                <button type="submit" class="nav-links">Get Ouotes</button>
+            </div>
+
+        </div>
+    </header>
+    <!-- -----------------------------/Header-section--------------------------------->
+
+    <!-- -----------------------------Hero-section--------------------------------->
+    <section class="hero" id="home">
+        <img src="/images/home-bg.jpg" alt="">
+        <div class="hero-container container">
+            <div class="heroLeft">
+                <h1>Encourage innovation with trusted <span>Technology Solutions</span> </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                <div class="hero-links">
+                    <button type="submit" class="hero-btn">Learn More</button>
+                    <button type="submit" class="hero-btn">Contact Us</button>
+                </div>
+            </div>
+            <div class="heroRight">
+                <img src="/images/home-font.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------------/Hero-section--------------------------------->
 
     <!-- -----------------------------Service-section--------------------------------->
     <section class="service">
@@ -49,30 +120,30 @@
     </section>
     <!-- -----------------------------/Service-section--------------------------------->
 
-        <!-- -----------------------------Solutions-section--------------------------------->
-        <section class="solution">
-            <div class="solution-container container">
-                <div class="solutionRight">
-                    <h2>Creating Website Solutions</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua.</p>
-                    <ul class="solution-link">
-                        <li>E-Commerce Development</li>
-                        <li>Web Design</li>
-                        <li>WordPress Development</li>
-                        <li>Network Monitoring</li>
-                        <li>Page Speed Optimization</li>
-                        <li>Shopify Development</li>
-                    </ul>
-                </div>
-                <div class="solutionLeft">
-                    <div class="solution-img">
-                        <img src="/images/choose-1.png" alt="">
-                    </div>
+    <!-- -----------------------------Solutions-section--------------------------------->
+    <section class="solution">
+        <div class="solution-container container">
+            <div class="solutionRight">
+                <h2>Creating Website Solutions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <ul class="solution-link">
+                    <li>E-Commerce Development</li>
+                    <li>Web Design</li>
+                    <li>WordPress Development</li>
+                    <li>Network Monitoring</li>
+                    <li>Page Speed Optimization</li>
+                    <li>Shopify Development</li>
+                </ul>
+            </div>
+            <div class="solutionLeft">
+                <div class="solution-img">
+                    <img src="/images/choose-1.png" alt="">
                 </div>
             </div>
-        </section>
-        <!-- -----------------------------/Solutions-section--------------------------------->
+        </div>
+    </section>
+    <!-- -----------------------------/Solutions-section--------------------------------->
 
     <!-- -----------------------------Business-section--------------------------------->
     <section class="business">
@@ -84,14 +155,15 @@
             </div>
             <div class="businessLeft">
                 <h2>Tech Soul for your Business</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
                 <ul class="business-link">
-                    <li>E-Commerce Development</li>
-                    <li>Web Design</li>
-                    <li>WordPress Development</li>
-                    <li>Network Monitoring</li>
-                    <li>Page Speed Optimization</li>
-                    <li>Shopify Development</li>
+                    <li>Discovery & Strategy</li>
+                    <li>UX/UI Design</li>
+                    <li>iOS apps (Swift)</li>
+                    <li>Android apps (Java)</li>
+                    <li>Managed IT Service</li>
+                    <li>Cloud Services</li>
                 </ul>
             </div>
         </div>
@@ -103,7 +175,10 @@
         <div class="number-overlay"></div>
         <div class="number-container container">
             <div class="number-items">
-                <div class="counter" data-target="23"></div>
+                <div class="numberbox">
+                    <div class="counter" data-target="23"></div>
+                    <span>+</span>
+                </div>
                 <p>Years of Experience</p>
             </div>
             <div class="number-items">
@@ -111,11 +186,17 @@
                 <p>Complete Projects</p>
             </div>
             <div class="number-items">
-                <div class="counter" data-target="100">+</div>
+                <div class="numberbox">
+                    <div class="counter" data-target="100"></div>
+                    <span>+</span>
+                </div>
                 <p>Employees</p>
             </div>
             <div class="number-items">
-                <div class="counter" data-target="300">+</div>
+                <div class="numberbox">
+                    <div class="counter" data-target="300"></div>
+                    <span>+</span>
+                </div>
                 <p>5 Star Rating</p>
             </div>
         </div>

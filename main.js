@@ -81,3 +81,18 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 };
+
+window.addEventListener("scroll",function(){
+    let header = document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY >200);
+});
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click",mobileMenu);
+
+function mobileMenu(){
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+};
