@@ -162,6 +162,9 @@
     .container {
         padding: 0 10px;
     }
+    .navbar ul {
+        padding-left: 10px;
+    }
     .hero{
         height: auto;
     }
@@ -250,4 +253,12 @@
         display: block;
     }
     
+}
+
+@media(max-width: 510px){
+    .hero::before{
+        
+        width: 250px;
+        height: 250px;
+    }
 }
