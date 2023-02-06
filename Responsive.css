@@ -12,7 +12,8 @@
         top: 80px;
         left: -100%;
         width: 100%;
-        padding: 40px 0;
+        height: auto;
+        padding: 20px 0;
         background-color: #ffff;
         overflow-X: auto;
     }
@@ -161,6 +162,24 @@
 @media(max-width: 568px) {
     .container {
         padding: 0 10px;
+    }
+    header.sticky{
+        height: 70px;
+    }
+    #show-drop:checked~.drop-menu, #page-drop:checked~.drop-menu, #blog-drop:checked~.drop-menu {
+        margin-left: 0px;
+    }
+    .nav-menu{
+        top: 70px;
+    }
+    .hamburger .line{
+        width: 30px;
+    }
+    .logo a{
+        font-size: 2.2rem;
+    }
+    .navbar{
+        height: 70px;
     }
     .navbar ul {
         padding-left: 10px;
